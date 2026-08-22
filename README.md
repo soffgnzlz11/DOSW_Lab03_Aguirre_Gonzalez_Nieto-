@@ -124,7 +124,7 @@ With the goal of gaining a better understanding of the different uses of Maven, 
    6. How do you approve a `pull request` in GitHub?
       
       1. Un revisor entra al "pull Request" y va a la pestaña "Files changed".
-      2. Hacer click en "Review changes" (arriba a la derecha).
+      2. Hacer click en "Submit Review" (arriba a la derecha).
       3. Selecciona la opción "Approve" (también puede elegir "Comment" o "Request changes").
       4. Opcionalmente añade un comentario y confirma con "Submit review".
       5. Si el repositorio exige revisiones obligatorias, una vez aprobado (y sin conflictos), el PR queda listo para fusionarse ("Merge pull request").
