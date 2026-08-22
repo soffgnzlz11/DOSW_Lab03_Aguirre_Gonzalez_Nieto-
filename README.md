@@ -84,15 +84,60 @@ The main functionalities of **TechCup** are:
 With the goal of gaining a better understanding of the different uses of Maven, you will create a project using _Maven archetypes_.
 
 1. Create the `feature/proj-structure` branch based on the `develop` branch.
-2. Answer the following questions in the README:
+
+   <img width="340" height="230" alt="image" src="https://github.com/user-attachments/assets/eed45751-2abf-454a-8adb-6ad93ce89aaa" />
+
+   **figure 1. Creacion de rama feature/proj/structure**
+   
+3. Answer the following questions in the README:
 
    1. What is a Maven *Archetype*?
+      - Es una plantilla predefinida que sirve para generar la estructura inicial de un proyecto Maven (carpetas, archivo pom.xml básico, configuración estándar). Se crea un proyecto Maven usando una de las muchas plantillas disponibles, llamadas arquetipos.
    2. What is the purpose of the `maven-archetype-quickstart` archetype?
+      - Es el arquetipo estándar para generar rápidamente un proyecto Java básico y funcional (con estructura src/main/java, src/test/java y un pom.xml mínimo), bueno para iniciar proyectos simples o de prueba. Es el arquetipo por defecto a elegir.
    3. What command can be used to create a project based on a Maven archetype?
+      - `mvn archetype:generate`
+
+         Crea un proyecto a partir de uno ya existente que fue creado y guardado en maven, y por defecto pide de forma interactiva los datos del proyecto. También se puede especificar todo en modo no interactivo de la siguiente manera:
+
+         `mvn archetype:generate \
+           -DarchetypeGroupId=org.apache.maven.archetypes \
+           -DarchetypeArtifactId=maven-archetype-quickstart \
+           -DgroupId=com.miempresa.proyecto \
+           -DartifactId=mi-proyecto \
+           -DinteractiveMode=false`
+
+        colocando `-D` para los parametros y `archetypeArtifactId○` + `archetypeArtifactId` para ubicar el arquetipo que se desea y `artifactId` + `interactiveMode` para dar los nombres de proyecto y las carpetas.
+        
    4. What is a `pull request` in GitHub?
+
+      - Es una forma de avisar a otros sobre cambios que se han subido a un repositorio en GitHub. Una vez abierto, se pueden discutir y revisar los cambios propuestos con colaboradores y agregar commits adicionales antes de fusionarlos al repositorio.
+
    5. How do you create a `pull request` in GitHub?
+  
+      1. Se suben (push) los cambios hechos en una rama, (branch) creada para alguna funcionalidad o algo especifico, del repositorio o del local.
+      2. Entrar al repositorio en GitHub y selecciona la pestaña "Pull requests".
+      3. Hacer click en "New pull request".
+      4. Seleccionar la rama base (a la que se fusionará) y la rama de comparación (la que contiene los cambios).
+      5. Revisa las diferencias, agrega un título y una descripción, y confirma con "Create pull request".
+
    6. How do you approve a `pull request` in GitHub?
+      
+      1. Un revisor entra al "pull Request" y va a la pestaña "Files changed".
+      2. Hacer click en "Review changes" (arriba a la derecha).
+      3. Selecciona la opción "Approve" (también puede elegir "Comment" o "Request changes").
+      4. Opcionalmente añade un comentario y confirma con "Submit review".
+      5. Si el repositorio exige revisiones obligatorias, una vez aprobado (y sin conflictos), el PR queda listo para fusionarse ("Merge pull request").
+
    7. Include the bibliography, using **APA format**, for the sources consulted to answer the questions above.
+  
+      - Bibliografía (formato APA)
+      - Apache Software Foundation. (s.f.). Maven archetype plugin – Introduction. Apache Maven Project. https://maven.apache.org/archetype/maven-archetype-plugin/
+      - Apache Software Foundation. (s.f.). Guide to creating archetypes. Apache Maven Project. https://maven.apache.org/guides/mini/guide-creating-archetypes.html
+      - GitHub, Inc. (s.f.). About pull requests. GitHub Docs. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+      - GitHub, Inc. (s.f.). Creating a pull request. GitHub Docs. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+      - GitHub, Inc. (s.f.). Reviewing proposed changes in a pull request. GitHub Docs. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request
+      - Anthropic. (2026). Claude (Sonnet 5) [Modelo de lenguaje grande]. https://claude.ai
 
 3. Create the basic project structure using the `maven-archetype-quickstart` archetype ([reference](https://maven.apache.org/archetypes/maven-archetype-quickstart/index.html)).
 
