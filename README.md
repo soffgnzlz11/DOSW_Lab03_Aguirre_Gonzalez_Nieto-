@@ -87,67 +87,13 @@ With the goal of gaining a better understanding of the different uses of Maven, 
 1. Create the `feature/proj-structure` branch based on the `develop` branch.
 2. Answer the following questions in the README:
 
-#### 1. What is a Maven *Archetype*?
-
-A Maven Archetype is a project template used to create Maven projects with a predefined structure, configuration, and set of files. It helps developers start projects quickly and consistently.
-
-#### 2. What is the purpose of the `maven-archetype-quickstart` archetype?
-
-The `maven-archetype-quickstart` archetype creates a basic Maven project with a standard Java structure. It includes a `pom.xml` file, a main Java class, and a test class, providing a starting point for developing a Java application.
-
-#### 3. What command can be used to create a project based on a Maven archetype?
-
-The following command can be used to create a project using the `maven-archetype-quickstart` archetype:
-
-```
-mvn archetype:generate -DgroupId=edu.eci.dosw.lab -DartifactId=DOSW-Laboratorio4 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-```
-#### 4. What is a `pull request` in GitHub?
-
-A Pull Request (PR) is a request to merge changes from one branch into another branch. It allows team members to review, discuss, and approve the proposed changes before they are merged.
-
-#### 5. How do you create a `pull request` in GitHub?
-
-To create a Pull Request:
-
-1. Push the feature branch to the GitHub repository.
-2. Open the repository on GitHub.
-3. Go to **Pull requests**.
-4. Click **New pull request**.
-5. Select the source branch and the target branch.
-6. Add a title and description.
-7. Click **Create pull request**.
-8. Request a review from another team member.
-
-For this laboratory, the Pull Request must merge `feature/proj-structure` into `develop`.
-
-#### 6. How do you approve a `pull request` in GitHub?
-
-To approve a Pull Request:
-
-1. Open the Pull Request on GitHub.
-2. Go to the **Files changed** section.
-3. Review the proposed changes.
-4. Click **Review changes**.
-5. Select **Approve**.
-6. Click **Submit review**.
-
-The Pull Request must be approved by a team member different from the person who created it.
-
-#### 7. Bibliography
-
-Apache Maven. (n.d.). *Maven Archetype Plugin*. Apache Software Foundation. https://maven.apache.org/archetype/maven-archetype-plugin/
-
-Apache Maven. (n.d.). *Maven Quickstart Archetype*. Apache Software Foundation. https://maven.apache.org/archetypes/maven-archetype-quickstart/
-
-GitHub. (n.d.). *About pull requests*. GitHub Docs. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
-
-GitHub. (n.d.). *Creating a pull request*. GitHub Docs. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
-
-GitHub. (n.d.). *Reviewing proposed changes in a pull request*. GitHub Docs. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request
-
-
-
+   1. What is a Maven *Archetype*?
+   2. What is the purpose of the `maven-archetype-quickstart` archetype?
+   3. What command can be used to create a project based on a Maven archetype?
+   4. What is a `pull request` in GitHub?
+   5. How do you create a `pull request` in GitHub?
+   6. How do you approve a `pull request` in GitHub?
+   7. Include the bibliography, using **APA format**, for the sources consulted to answer the questions above.
 
 3. Create the basic project structure using the `maven-archetype-quickstart` archetype ([reference](https://maven.apache.org/archetypes/maven-archetype-quickstart/index.html)).
 
