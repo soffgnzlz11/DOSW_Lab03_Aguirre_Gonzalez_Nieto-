@@ -32,6 +32,7 @@ Before getting started, please consider the following recommendations:
 ---
 
 ## 3. Case Study
+ffff
 
 **TechCup** is a digital platform for managing the semester-long soccer tournament organized for the Systems Engineering, Artificial Intelligence Engineering, Cybersecurity Engineering, and Statistical Engineering programs at Escuela Colombiana de Ingeniería Julio Garavito. The system will be used by students, team captains, and tournament organizers.
 
